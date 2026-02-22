@@ -15,10 +15,8 @@ public class CsvExporter extends Exporter {
     private String escape(String value) {
         if (value == null) return "";
 
-        // Escape double quotes by doubling them
         String escaped = value.replace("\"", "\"\"");
 
-        // Wrap in quotes to preserve commas and newlines
         return "\"" + escaped + "\"";
     }
 }
