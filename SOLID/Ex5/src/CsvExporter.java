@@ -2,10 +2,23 @@ import java.nio.charset.StandardCharsets;
 
 public class CsvExporter extends Exporter {
     @Override
-    public ExportResult export(ExportRequest req) {
+    public ExportResult doExport(ExportRequest req) {
         // LSP issue: changes meaning by lossy conversion
-        String body = req.body == null ? "" : req.body.replace("\n", " ").replace(",", " ");
-        String csv = "title,body\n" + req.title + "," + body + "\n";
+        String csv = "title,body\n"
+                + escape(req.title) + ","
+                + escape(req.body) + "\n";
+
+        
         return new ExportResult("text/csv", csv.getBytes(StandardCharsets.UTF_8));
+    }
+
+    private String escape(String value) {
+        if (value == null) return "";
+
+        // Escape double quotes by doubling them
+        String escaped = value.replace("\"", "\"\"");
+
+        // Wrap in quotes to preserve commas and newlines
+        return "\"" + escaped + "\"";
     }
 }
