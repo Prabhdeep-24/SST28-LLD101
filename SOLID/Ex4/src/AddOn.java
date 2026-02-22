@@ -1,3 +1,3 @@
-public enum AddOn {
-    MESS, LAUNDRY, GYM
-}
+public interface AddOn {
+    Money getPrice();
+} 
