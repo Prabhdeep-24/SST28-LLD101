@@ -1,6 +1,6 @@
-package com.bms.strategy;
+package strategy;
 
-import com.bms.model.ShowSeat;
+import model.ShowSeat;
 
 public class BasePricingStrategy implements PricingStrategy {
 

@@ -1,6 +1,6 @@
-package com.bms.strategy;
+package strategy;
 
-import com.bms.model.ShowSeat;
+import model.ShowSeat;
 
 public interface PricingStrategy {
     double calculatePrice(ShowSeat showSeat, double basePrice);

@@ -1,4 +1,4 @@
-package com.bms.model;
+package model;
 
 public class City {
     private String id;

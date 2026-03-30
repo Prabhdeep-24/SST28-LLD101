@@ -1,9 +1,9 @@
-package com.bms.service;
+package service;
 
-import com.bms.model.City;
-import com.bms.model.Screen;
-import com.bms.model.Theatre;
-import com.bms.repository.TheatreRepository;
+import model.City;
+import model.Screen;
+import model.Theatre;
+import repository.TheatreRepository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bms.model;
+package model;
 
 public class Movie {
     private String id;

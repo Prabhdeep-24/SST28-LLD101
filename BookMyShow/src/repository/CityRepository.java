@@ -1,6 +1,6 @@
-package com.bms.repository;
+package repository;
 
-import com.bms.model.City;
+import model.City;
 import java.util.HashMap;
 import java.util.Map;
 

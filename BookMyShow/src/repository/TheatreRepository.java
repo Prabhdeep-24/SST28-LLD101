@@ -1,6 +1,6 @@
-package com.bms.repository;
+package repository;
 
-import com.bms.model.Theatre;
+import model.Theatre;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

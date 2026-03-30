@@ -1,9 +1,9 @@
-package com.bms.service;
+package service;
 
-import com.bms.model.City;
-import com.bms.model.Movie;
-import com.bms.model.Show;
-import com.bms.repository.MovieRepository;
+import model.City;
+import model.Movie;
+import model.Show;
+import repository.MovieRepository;
 
 import java.util.HashSet;
 import java.util.List;

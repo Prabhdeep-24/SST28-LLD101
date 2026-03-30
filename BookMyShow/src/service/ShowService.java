@@ -1,12 +1,12 @@
-package com.bms.service;
+package service;
 
-import com.bms.model.City;
-import com.bms.model.Movie;
-import com.bms.model.SeatStatus;
-import com.bms.model.Show;
-import com.bms.model.ShowSeat;
-import com.bms.model.Theatre;
-import com.bms.repository.ShowRepository;
+import model.City;
+import model.Movie;
+import model.SeatStatus;
+import model.Show;
+import model.ShowSeat;
+import model.Theatre;
+import repository.ShowRepository;
 
 import java.util.ArrayList;
 import java.util.List;

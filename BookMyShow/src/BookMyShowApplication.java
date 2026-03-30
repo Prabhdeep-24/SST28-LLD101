@@ -1,9 +1,8 @@
-package com.bms;
 
-import com.bms.model.*;
-import com.bms.repository.*;
-import com.bms.service.*;
-import com.bms.strategy.*;
+import model.*;
+import repository.*;
+import service.*;
+import strategy.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

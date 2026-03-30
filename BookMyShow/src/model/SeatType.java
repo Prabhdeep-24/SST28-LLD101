@@ -1,4 +1,4 @@
-package com.bms.model;
+package model;
 
 public enum SeatType {
     SILVER,

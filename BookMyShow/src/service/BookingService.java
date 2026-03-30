@@ -1,13 +1,13 @@
-package com.bms.service;
+package service;
 
-import com.bms.model.Booking;
-import com.bms.model.BookingStatus;
-import com.bms.model.SeatStatus;
-import com.bms.model.Show;
-import com.bms.model.ShowSeat;
-import com.bms.model.User;
-import com.bms.repository.BookingRepository;
-import com.bms.strategy.PricingStrategy;
+import model.Booking;
+import model.BookingStatus;
+import model.SeatStatus;
+import model.Show;
+import model.ShowSeat;
+import model.User;
+import repository.BookingRepository;
+import strategy.PricingStrategy;
 
 import java.util.List;
 
